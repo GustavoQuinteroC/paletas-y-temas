@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://gustavoquintero.dev; connect-src 'self'">
+<title>Paletas y temas | Gustavo Quintero</title>
+<meta name="description" content="Genera paletas por teoría del color en OKLCH, con escalas 50 a 950, revisión de contraste WCAG, vista previa y exportación a CSS, Tailwind, Bootstrap y tokens de diseño.">
+<meta name="theme-color" content="#081236">
+<link rel="icon" href="./icono.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="ancho">
+      <nav class="barra" aria-label="Principal">
+        <a class="firma" href="https://gustavoquintero.dev"><img class="firma__foto" src="https://gustavoquintero.dev/assets/img/gustavo-quintero-96.jpg" width="38" height="38" alt="">Gustavo Quintero</a>
+        <div class="barra__enlaces">
+          <a href="../">Herramientas</a>
+          <a href="https://gustavoquintero.dev">CV</a>
+          <a href="https://github.com/GustavoQuinteroC/paletas-y-temas" rel="noopener">Código</a>
+        </div>
+      </nav>
+      <div class="portada">
+        <h1>Paletas y temas</h1>
+        <p>Parte de un color y obtén una paleta completa por teoría del color, con escalas listas para tu sitio, revisión de contraste y el código para CSS, Tailwind, Bootstrap o Figma.</p>
+      </div>
+    </div>
+  </header>
+  <main class="ancho mesa" id="app"></main>
+  <footer class="pie">
+    <div class="ancho">
+      <span>Gustavo Quintero · Guadalajara</span>
+      <a href="https://github.com/GustavoQuinteroC/paletas-y-temas" rel="noopener">Código abierto con licencia MIT</a>
+    </div>
+  </footer>
+  <script type="module" src="./src/main.tsx"></script>
+</body>
+</html>

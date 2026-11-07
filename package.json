@@ -1,0 +1,28 @@
+{
+  "name": "paletas-y-temas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generador de paletas por teoría del color en OKLCH, con escalas, revisión de contraste WCAG, vista previa y exportación a CSS, Tailwind, Bootstrap y tokens.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run tests",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "4.7.0",
+    "typescript": "5.9.3",
+    "vite": "6.4.5",
+    "vitest": "3.2.7"
+  }
+}
